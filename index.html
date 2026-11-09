@@ -34,7 +34,7 @@
   .lang button { border: 0; background: transparent; padding: 5px 12px; font: 600 13px Inter, sans-serif; cursor: pointer; color: var(--muted); }
   .lang button[aria-pressed="true"] { background: var(--text); color: #fff; }
 
-  .hero { padding: 88px 0 64px; }
+  .hero { padding-top: 88px; padding-bottom: 64px; }
   .avatar { width: 132px; height: 132px; border-radius: 50%; object-fit: cover; display: block; margin-bottom: 24px; border: 4px solid #fff; box-shadow: 0 0 0 1px var(--line), 0 8px 24px rgba(21,24,29,.12); }
   .hero h1 { font-size: clamp(34px, 6vw, 52px); }
   .role { font-size: 20px; color: var(--muted); margin: 0 0 20px; }
@@ -75,7 +75,7 @@
 
   @media (max-width: 640px) {
     .links { display: none; }
-    .hero { padding: 56px 0 44px; }
+    .hero { padding-top: 56px; padding-bottom: 44px; }
     .item { grid-template-columns: minmax(0, 1fr); gap: 2px; }
   }
 </style>
